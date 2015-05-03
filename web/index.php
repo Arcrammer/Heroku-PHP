@@ -7,7 +7,7 @@
   <head>
     <title>Confuso</title>
     <!-- Links -->
-    <link rel="stylesheet" href="../Assets/Stylesheets/Main.css">
+    <link rel="stylesheet" href="Assets/Stylesheets/Main.css">
   </head>
   <body>
     <div class="container">
