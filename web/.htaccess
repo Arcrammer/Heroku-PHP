@@ -1,8 +1,3 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]
-
-# This rule will allow Apache to serve .php files as if they were
-# directories which means we avoid having a lot of directories
-# which contain index.php files.
-RewriteRule ^(.*)/ /$1.php [L]
