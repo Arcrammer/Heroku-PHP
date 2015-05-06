@@ -1,11 +1,12 @@
 <?php
   // Enable bebugging
   $app["debug"] = true;
+  include "Assets/Inclusions/Main.php";
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Confuso</title>
+    <title><?= $siteName ?></title>
     <!-- Metadata -->
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -14,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-      <h4>Heroku-PHP</h4>
+      <h4><?= $siteName ?></h4>
       <ul>
         <li><a href="BasicForm/">Basic Form</a></li>
       </ul>
