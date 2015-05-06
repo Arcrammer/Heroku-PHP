@@ -18,8 +18,8 @@
     <div class="container">
       <h4><?= $siteName ?></h4>
       <ul>
-        <li><a href="BasicForm/">Basic Form</a></li>
-        <li><a href="FetchDataFromClass/">Fetch Data from a Class</a></li>
+        <li><a href="/BasicForm/index.php">Basic Form</a></li>
+        <li><a href="/FetchDataFromClass/index.php">Fetch Data from a Class</a></li>
       </ul>
     </div> <!-- .container -->
   </body>
