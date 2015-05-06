@@ -1,6 +1,7 @@
 <?php
   // Enable bebugging
   $app["debug"] = true;
+  error_reporting(E_ALL);
   include "Assets/Inclusions/Main.php";
 ?>
 <!DOCTYPE html>
@@ -18,6 +19,7 @@
       <h4><?= $siteName ?></h4>
       <ul>
         <li><a href="BasicForm/">Basic Form</a></li>
+        <li><a href="FetchDataFromClass/">Fetch Data from a Class</a></li>
       </ul>
     </div> <!-- .container -->
   </body>

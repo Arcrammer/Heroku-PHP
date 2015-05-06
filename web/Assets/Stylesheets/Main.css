@@ -32,8 +32,39 @@ h4 {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 1.75em;
   font-weight: 300;
-  margin-top: 5%;
+  margin: 5% auto;
   text-align: center;
+}
+
+.middish {
+  /* Push stuff down a bit */
+  margin-top: 16.5%;
+}
+
+/* Navigation List */
+ul, ol {
+  list-style-type: none;
+  margin: 2.5%;
+}
+
+ul a:link, ul a:visited {
+  color: blueviolet;
+  font-size: 1.15em;
+  text-decoration: none;
+  transition: all 100ms;
+}
+
+ul a:hover {
+  background-color: transparent;
+  color: #A94DFF;
+}
+
+ul a:active {
+  color: #522080;
+}
+
+ul li {
+  margin: 5% auto;
 }
 
 /* Links */
@@ -60,6 +91,12 @@ a:hover {
 
 a:active {
   color: #522080;
+}
+
+.gmooh {
+  /* Escape Hatch */
+  display: block;
+  margin-top: 5%;
 }
 
 /* Buttons */
@@ -92,27 +129,6 @@ input[type="button"]:hover, input[type="submit"]:hover, button:hover, a.btn:hove
 input[type="button"]:active, input[type="submit"]:active, button:active, a.btn:active {
   background-color: #522080;
   border-color: #522080;
-}
-
-ul, ol {
-  list-style-type: none;
-  margin: 2.5%;
-}
-
-ul a:link, ul a:visited {
-  color: blueviolet;
-  font-size: 1.35em;
-  text-decoration: none;
-  transition: all 100ms;
-}
-
-ul a:hover {
-  background-color: transparent;
-  color: #A94DFF;
-}
-
-ul a:active {
-  color: #522080;
 }
 
 /* Form Fields */
