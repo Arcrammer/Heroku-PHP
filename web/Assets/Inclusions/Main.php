@@ -1,5 +1,13 @@
 <?php
+  // Enable bebugging
+  $app["debug"] = true;
+  error_reporting(E_ALL);
+  ini_set('display_errors', true);
+  
+  // Application-wide Properties
   $siteName = "Heroku-PHP";
+  
+  // Application-wide Classes
   class Person {
     // Properties
     public $firstName;

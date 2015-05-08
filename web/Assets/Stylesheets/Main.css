@@ -15,6 +15,10 @@ label[for] {
   cursor: pointer;
 }
 
+img {
+  width: 100%;
+}
+
 /* Structure */
 body {
   background-color: rgba(0,0,0,0.035);
@@ -168,13 +172,31 @@ input[type="button"]:active, input[type="submit"]:active, button:active, a.btn:a
   border-color: #522080;
 }
 
+/* Wells */
 .well {
   background-color: rgba(255,255,255,0.4);
   border: 2px solid rgba(0,0,0,0.25);
   border-radius: 5px;
   color: #555;
   font-family: monospace;
+  overflow: auto;
   padding: 50px 15px;
   margin: 5% auto;
   width: 30%;
+}
+
+.image-well {
+  background-color: rgba(255,255,255,0.4);
+  border: 2px solid rgba(0,0,0,0.25);
+  border-radius: 5px;
+  color: #555;
+  font-family: monospace;
+  overflow: auto;
+  padding: 15px;
+  margin: 5% auto;
+  width: 75%;
+}
+
+.image-well img {
+  border-radius: 5px;
 }

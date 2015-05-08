@@ -1,7 +1,4 @@
-<?php
-  // Enable bebugging
-  $app["debug"] = true;
-?>
+<?php include "../Assets/Inclusions/Main.php" ?>
 <!DOCTYPE html>
 <html>
   <head>

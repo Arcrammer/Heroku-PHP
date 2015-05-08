@@ -1,10 +1,4 @@
-<?php
-  // Enable bebugging
-  $app["debug"] = true;
-  error_reporting(E_ALL);
-  ini_set('display_errors', true);
-  include "../Assets/Inclusions/Main.php";
-?>
+<?php include "../Assets/Inclusions/Main.php" ?>
 <!DOCTYPE html>
 <html>
   <head>
