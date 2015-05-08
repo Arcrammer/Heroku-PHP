@@ -17,6 +17,7 @@
         <li><a href="/BasicForm/index.php">Basic Form</a></li>
         <li><a href="/FetchDataFromClass/index.php">Fetch Data from a Class</a></li>
         <li><a href="/FileWrite/index.php">Write to a File</a></li>
+        <li><a href="/ImageUpload/index.php">Upload an Image</a></li>
       </ul>
     </div> <!-- .container -->
   </body>
